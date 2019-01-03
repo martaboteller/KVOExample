@@ -1,17 +1,18 @@
 # KVO Example
 
-<table border=1 bordercolorlight=yellow bordercolordark=black>
+<table border=1 bordercolorlight=white>
 <tr>
-<td>
+<th width=50%>
 <img src="https://github.com/martaboteller/KVOExample/blob/master/KVOExample/resources/kvo.gif?raw=true" width="300" height="450"> 
-</td>
-<td>yeah yeah yeah
-</td>
+</th>
+<th align="left" width=50%>
+  This is a simple example of Key-value observing usage.
+</th>
 </tr>
 </table>
 
 
-This is a simple example of Key-value observing usage.
+
 
 
 
