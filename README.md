@@ -1,16 +1,18 @@
 # KVO Example
 
-<table border=1 bordercolorlight=white>
+<table border=0 bordercolorlight=white>
 <tr>
-<th width=50%>
+<th width=40%>
 <img src="https://github.com/martaboteller/KVOExample/blob/master/KVOExample/resources/kvo.gif?raw=true" width="300" height="450"> 
 </th>
-<th align="left" width=50%>
-  <p>This is a simple example of Key-value coding usage.
-  &nbsp;<br/>
-  A simple view has been created with a textField and a tableView.
-  &nbsp;
+<th align="left" width=60%>
+  <p>This is a simple example of key-value coding usage.</p>
+  
+  <p>A simple view has been created with a textField and a tableView.</p>
+  <p>
   As soon as something is written at the textField an "inputText" property is alerted (Key-Value Observer).
+  We check if the new contact is already listed and only let the user add it if it does not exist.  
+  At the same time we enable/disable the "add" button when necessary and display an alert message as soon as the inputText property equals an existing contact. 
   </p>
 </th>
 </tr>
