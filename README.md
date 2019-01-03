@@ -6,14 +6,15 @@
 <img src="https://github.com/martaboteller/KVOExample/blob/master/KVOExample/resources/kvo.gif?raw=true" width="300" height="450"> 
 </th>
 <th align="left" width=50%>
-  This is a simple example of Key-value observing usage.
+  <p>This is a simple example of Key-value coding usage.
+  &nbsp;<br/>
+  A simple view has been created with a textField and a tableView.
+  &nbsp;
+  As soon as something is written at the textField an "inputText" property is alerted (Key-Value Observer)
+  </p>
 </th>
 </tr>
 </table>
-
-
-
-
 
 
 &nbsp;
@@ -26,10 +27,7 @@ Please fin
 
 ### Result
 
-
 Please feel free to send me an email should you need further information.
-
-<img src="https://github.com/martaboteller/MyPlaces/blob/master/MyPlaces/imagesForReadme/blackIphoneTable.png?raw=true" width="550" height="400" title="Icons" hspace="30">
 
 ## Built With
 
