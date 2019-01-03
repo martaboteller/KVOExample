@@ -39,7 +39,7 @@ var inputTextObservationToken: NSKeyValueObservation?
 &nbsp;
 
 
-3rd step: define observer for new values of the property inputText
+3rd step: define an observer for new values of the property inputText
 ```
 inputTextObservationToken = observe(\.inputText, options: .new, changeHandler: {(vc,change) in
      guard let updatedInputText = change.newValue as? String else {return}
@@ -62,7 +62,7 @@ inputTextObservationToken = observe(\.inputText, options: .new, changeHandler: {
 ```
 &nbsp;
 
-5th step: invalidate the observation token
+5th step: invalidate the observation token 
 ```
 override func viewWillDisappear(_ animated: Bool) {
    super.viewWillDisappear(animated)
