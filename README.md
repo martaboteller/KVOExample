@@ -10,7 +10,7 @@
   &nbsp;<br/>
   A simple view has been created with a textField and a tableView.
   &nbsp;
-  As soon as something is written at the textField an "inputText" property is alerted (Key-Value Observer)
+  As soon as something is written at the textField an "inputText" property is alerted (Key-Value Observer).
   </p>
 </th>
 </tr>
@@ -21,7 +21,7 @@
 
 ## Deployment
 
-Please fin
+
 &nbsp;
 
 
