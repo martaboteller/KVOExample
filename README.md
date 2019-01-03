@@ -1,18 +1,16 @@
 # KVO Example
 
-<TABLE BORDER=10 BORDERCOLORLIGHT=YELLOW BORDERCOLORDARK=BLUE> 
+<table border=1 bordercolorlight=yellow bordercolordark=black>
 <tr>
- <img src="https://github.com/martaboteller/KVOExample/blob/master/KVOExample/resources/kvo.gif?raw=true" width="300" height="450"> 
+<td>
+<img src="https://github.com/martaboteller/KVOExample/blob/master/KVOExample/resources/kvo.gif?raw=true" width="300" height="450"> 
+</td>
+<td>yeah yeah yeah
+</td>
 </tr>
-<Tr>
-   yeah yeah yeah
-</Tr>
-</TABLE>
+</table>
 
 
-
- <img src="https://github.com/martaboteller/MyPlaces/blob/master/MyPlaces/imagesForReadme/pinkIphonewithApp.png?raw=true" width="500" height="450"> 
- 
 This is the final project of a course entitled <i>IOS Application Developer</i> carried out at the UOC university thanks to a 
 grant from the Generalitat of Catalonia and the European Union.
 
