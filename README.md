@@ -11,7 +11,9 @@
   <p>A simple view has been created with a textField and a tableView.</p>
   <p>
   As soon as something is written at the textField an "inputText" property is alerted (Key-Value Observer).
-  We check if the new contact is already listed and only let the user add it if it does not exist.  
+ 
+ <p> In this simple example we use the observed value to check if the new contact is already listed at the tableView. And let the user add it only if it does not exist.  </p>
+  <p>
   At the same time we enable/disable the "add" button when necessary and display an alert message as soon as the inputText property equals an existing contact. 
   </p>
 </th>
