@@ -1,12 +1,12 @@
 # KVO Example
 
 <TABLE BORDER=10 BORDERCOLORLIGHT=YELLOW BORDERCOLORDARK=BLUE> 
-<TD>
- <img src="https://github.com/martaboteller/MyPlaces/blob/master/KVOExample/resources/kvo.gif?raw=true" width="300" height="450"> 
-</TD>
-<TD>
+<tr>
+ <img src="https://github.com/martaboteller/KVOExample/blob/master/KVOExample/resources/kvo.gif?raw=true" width="300" height="450"> 
+</tr>
+<Tr>
    yeah yeah yeah
-</TD>
+</Tr>
 </TABLE>
 
 
