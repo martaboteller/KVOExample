@@ -25,6 +25,50 @@
 
 ## Deployment
 
+1st step: Define an observation token
+
+```
+var inputTextObservationToken: NSKeyValueObservation?
+```
+&nbsp;
+
+2nd step: create an observable property for the textField
+```
+@objc dynamic var inputText: String?
+```
+&nbsp;
+
+
+3rd step: define observer for new values of the property inputText
+```
+inputTextObservationToken = observe(\.inputText, options: .new, changeHandler: {(vc,change) in
+     guard let updatedInputText = change.newValue as? String else {return}
+          if self.contacts.contains(updatedInputText) {
+                vc.existingLabel.text = "Contact already exists!"
+                self.addButton.isEnabled = false
+          }else{
+                vc.existingLabel.text = ""
+                self.addButton.isEnabled = true
+          }
+})
+```
+&nbsp;
+
+4th step: assign the value of textField.text to the observable property
+```
+@IBAction func textFieldTextDidChange() {
+      inputText = textField.text
+}
+```
+&nbsp;
+
+5th step: invalidate the observation token
+```
+override func viewWillDisappear(_ animated: Bool) {
+   super.viewWillDisappear(animated)
+   inputTextObservationToken!.invalidate()
+}
+```
 
 &nbsp;
 
